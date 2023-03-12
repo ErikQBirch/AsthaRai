@@ -1,0 +1,159 @@
+@keyframes colorChange {
+  0% {
+    background-color: rgb(255, 223, 185);
+  }
+  25% {
+    background-color: rgb(255, 223, 185);
+  }
+  100% {
+    background-color: rgb(172, 175, 194);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only all and (min-width: 0) {
+  body {
+    animation-name: colorChange;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    overflow-x: hidden;
+  }
+  body div#menu_overlay {
+    position: absolute;
+    top: 0;
+    z-index: 6;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.75s;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  body div#menu_overlay div#menu_bar {
+    margin-top: -10rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    text-align: center;
+    padding-top: 2.5rem;
+  }
+  body div#menu_overlay div#menu_bar h1 {
+    font-size: 5rem;
+  }
+  body div#menu_overlay div#menu_bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 50vw;
+    margin: 1.5rem auto;
+  }
+  body div#menu_overlay div#menu_bar ul li button {
+    background-color: transparent;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  body button#menuBtn {
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    right: 0;
+    font-size: 2.5rem;
+    background-color: transparent;
+    transition: opacity 0.75s;
+    opacity: 0;
+    border: none;
+  }
+  body button#menuBtn:hover {
+    cursor: pointer;
+  }
+  body nav {
+    margin: 1rem auto;
+    width: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  body nav a:link,
+  body nav a:visited {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: 0.5s;
+    text-shadow: none !important;
+    animation-name: colorChange;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  body nav a:hover,
+  body nav a:active {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgb(0, 0, 0);
+  }
+  body footer {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 2rem 0;
+  }
+  body footer div {
+    width: 75%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+  }
+  body footer div a:link,
+  body footer div a:visited,
+  body footer div button {
+    color: white;
+    text-shadow: none;
+    transition: text-shadow 0.25s;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+  }
+  body footer div a:hover,
+  body footer div a:active,
+  body footer div button:hover,
+  body footer div button:active {
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+  }
+}
+@media only all and (min-width: 760px) {
+  body {
+    animation-name: colorChange;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  body footer div {
+    width: 35%;
+    margin-top: 1rem;
+  }
+}
+@media only all and (min-width: 1200px) {
+  body {
+    animation-name: colorChange;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  body footer div {
+    width: 20%;
+    margin-top: 1.5rem;
+  }
+}/*# sourceMappingURL=index.css.map */
