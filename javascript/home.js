@@ -73,7 +73,7 @@ const pageStuff = {
       titleBanner_tag = helperFunctions.generateElement('div',"titleBanner","row"),
       h1 = helperFunctions.generateElement('h1',"","","Astha Rai"),
       h2 = helperFunctions.generateElement('h2',"","","Digital Illustrations Portfolio"),
-      span = helperFunctions.generateElement('span',"","","(Click any image to see a full sized version of it)")
+      span = helperFunctions.generateElement('span',"","","(Click any portfolio image to see a full sized version of it)")
     ){
       titleBanner_tag = helperFunctions.appendChildren(titleBanner_tag, h1, h2, span);
       titleBanner_tag.style.animationName = "none";

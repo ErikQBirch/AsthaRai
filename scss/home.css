@@ -180,6 +180,10 @@
   body section#about div#aboutContent figure {
     height: 30rem;
   }
+  body section#about div#aboutContent p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 @media only all and (min-width: 1200px) {
   body section#gallery {

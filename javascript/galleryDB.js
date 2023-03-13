@@ -129,4 +129,4 @@ export const galleryDB = {
   },
 }
 
-export const about = "Hi! I am digital illustrator. I draw characters mostly but i can also draw some background. I have done storyboard for my college projects."
+export const about = "Hi! I am digital illustrator. I draw characters mostly but I can also draw backgrounds. I have done storyboards for my college projects and am currently a graphic artist at IDZ Digital Private Limited. Combining my professional experiences with my skills in Photoshop, I am open to Free-Lance jobs and a searching for commissions. Reach out to me over LinkedIn or send me an email."

@@ -156,20 +156,6 @@
 }
 @media only all and (min-width: 760px) {
   body{
-    div#menu_overlay{
-      div#menu_bar{
-        h1{
-        }
-        h2{}
-        ul{
-          li{
-            button{
-            }
-          }
-        }
-        
-      }
-    }
     section#gallery{
       height: 140vh;
       margin-bottom: 4vh;
@@ -202,6 +188,7 @@
           }
         }
         p{
+
         }
       }
     }
@@ -219,6 +206,8 @@
           }
         }
         p{
+          font-size: 1.5rem;
+          line-height: 2rem;
         }
       }
     }
